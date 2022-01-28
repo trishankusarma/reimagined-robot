@@ -1,0 +1,26 @@
+.root
+{
+    width: 97%;
+    margin: 1rem auto;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .head
+  {
+      width: 80%;
+      margin:1rem auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .Button
+  {
+      margin:1rem auto;
+  }

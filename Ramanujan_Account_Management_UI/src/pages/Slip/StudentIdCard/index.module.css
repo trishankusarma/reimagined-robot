@@ -1,0 +1,55 @@
+.insideBorder
+{
+    width: 50em;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
+   padding-top: 1rem;
+}
+.iconR,.headingR,.details{
+    text-align: center;
+
+}
+.separator{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    margin-top: 1rem;
+    padding: 0;
+}
+.form1T{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.mainDetails{
+    margin: 2rem 3rem 2rem;
+}
+.outsideBorder{
+    text-align: center;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 900px) {
+    .insideBorder{
+        width: 90vw;
+    }
+    .mainDetails{
+        margin:0.5rem;
+
+    }
+  
+}
+@media only screen and (max-width: 300px)
+{
+    .details span{
+        display: block;
+    }
+    h5{
+        font-size: 1rem;
+
+    }
+    #unique{
+        font-size: 1rem;
+       
+    }
+}
+

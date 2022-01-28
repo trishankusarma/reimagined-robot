@@ -1,0 +1,57 @@
+.root
+{
+    width: 97%;
+    margin: 1rem auto;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  td:nth-child(3)
+  {
+      text-align: end;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .main
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .firsttable
+  {
+      width: 100%;
+      margin-right: 10px;
+  }
+  .Secondtable
+  {
+    width: 95%;
+  }
+  .root h4{
+      margin-top:5px;
+      margin-bottom: 5px;
+  }
+  .Button
+  {
+      margin: 1rem auto;
+  }
+  .intro
+  {
+    width:50%;
+    margin :1rem auto;
+    font-size:1.6rem;
+    font-weight:600;
+    text-align:center;
+    color:black
+}
+@media print {
+    .root
+    {
+        width: 94%;
+        margin: 2rem auto;
+    }
+ }

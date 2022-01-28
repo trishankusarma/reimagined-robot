@@ -1,0 +1,119 @@
+.insideBorder
+{
+    width: 80vw;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
+   padding-top: 1rem;
+}
+.iconR,.headingR,.details{
+    text-align: center;
+
+}
+
+.form2T{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.outsideBorder{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.sNo input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+  
+    width: 70px;
+    margin-left: 0.5rem;
+}
+
+.sNo{
+    margin-left: 2rem;
+}
+.DandS{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.date {
+    margin-right: 1rem;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.mainDetails select{
+    border: none;
+    outline: none;
+}
+.mainDetails select{
+    /* appearance: none; */
+    padding-left: 7px;
+}
+.mainDetails h6{
+    padding-left: 1.2rem;
+    text-decoration: underline;
+}
+.mainDetails p{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.mainDetails input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+  
+    width: 130px;
+    margin-left: 0.5rem;
+}
+.last{
+    margin-left: 1rem;
+}
+.mainDetails #reason{
+    width: 350px;
+}
+.mainDetails #name{
+    width: 220px;
+}
+.mainDetails #add{
+    width: 230px;
+}
+.mainDetails #date{
+    width: 150px;
+}
+.mainDetails #cls{
+    width: 30px;
+}
+.mainDetails .sign{
+    text-align: right;
+    padding-right: 2rem;
+}
+@media only screen and (max-width: 900px) {
+    .insideBorder{
+        width: 90vw;
+    }
+  
+}
+@media only screen and (max-width: 300px)
+{
+    .details span{
+        display: block;
+    }
+  
+}
+@media only screen and (max-width: 450px){
+    .mainDetails #reason{
+        width:250px ;
+    }
+    .slNo{
+        padding-left: 0;
+    }
+    .date{
+        padding-right: 0;
+    }
+}
+

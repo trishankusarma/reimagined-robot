@@ -1,0 +1,34 @@
+.insideBorder
+{
+    margin:1rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.form1T
+{
+    width: 97%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    width: 100%;
+    text-align: center;
+  }
+  table,th,tr{
+    border: 1px solid black;
+  }
+  @media only screen and (max-width: 460px){
+ .form1T{
+     font-size: .7rem;
+ }
+}
+@media only screen and (max-width: 670px){
+    .form1T{
+        font-size: .7rem;
+    }
+}

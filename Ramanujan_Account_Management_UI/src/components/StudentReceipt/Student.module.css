@@ -1,0 +1,32 @@
+.firstSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+.second
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.root {
+    width: 40%;
+    margin: 1rem auto;
+}
+th,td{
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .content
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }

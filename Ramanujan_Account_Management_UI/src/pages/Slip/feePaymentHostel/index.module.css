@@ -1,0 +1,84 @@
+/* :root{
+    font-size: 75%;
+} */
+.firstSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+tr, td{
+    border:.8px solid black;
+}
+.second
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.root {
+    width: 80%;
+    margin: 1rem auto;
+}
+.special{
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+  }
+  .content
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .amountW{
+      margin-top: 2rem;
+      width: 70%;
+  }
+  .signature{
+    
+      border-top: dashed 1px grey;
+      margin-top: 5rem;
+      width: 150px;
+      display: block;
+      margin-left: auto;
+      padding-top: 0.5rem;
+    
+  }
+  .outsideBorder{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.date {
+    margin-right: 1rem;
+}
+#date{
+    width: 150px;
+}
+@media only screen and (max-width: 460px){
+    .secImage{
+        display: none;
+    }
+    .firstSection{
+        flex-direction: column;
+    }
+    .root{
+        font-size: 0.8rem;
+    }
+    :root{
+    font-size: 75%;
+}
+}
+@media only screen and (max-width: 670px){
+    .root{
+        width: 90%;
+    }
+    :root{
+    font-size: 75%;
+}
+}
