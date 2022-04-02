@@ -65,7 +65,7 @@ export default function TableTwo(props) {
             props?.data?.previousPayment?.otherPayment[i]?.date,
             props?.data?.previousPayment?.otherPayment[i]?.particular,
             props?.data?.previousPayment?.otherPayment[i]?.amount,
-            <Link target="_blank" to={`/OtherPayment/reciept/${props?.data?.studentFeeInfo?._id}?other=true&index=${i}`}>Print</Link>,
+            <Link target="_blank" to={`/feePaymentHostelSlip/${props?.data?.studentFeeInfo?._id}?other=true&index=${i}`}>Print</Link>,
             <SButton onClick={()=>{
               axios().delete(`/fee/other/${props?.data?.previousPayment?._id}/${props?.data?.previousPayment?.otherPayment[i]?._id}`)
               const result =props?.data?.previousPayment?.otherPayment.filter(data=>data._id!=props?.data?.previousPayment?.otherPayment[i]?._id)

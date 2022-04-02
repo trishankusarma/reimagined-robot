@@ -28,13 +28,16 @@ function Form3T() {
   React.useEffect(async () => {
     
     let res = await axios().get(`/student/oneStudentsCollege/${id}`);
-    setDetails(res.data.data);
+
+    console.log( res , "result" );
+
+    setDetails(res?.data?.data);
     console.log(res.data,"1")
     let fee = await axios().get(
-      `/student/oneStudentsCollegeForFee/${res.data.data.stream}/${res.data.data.admissionNo}`
+      `/student/oneStudentsCollegeForFee/${res.data?.data?.stream}/${res.data?.data?.admissionNo}`
     );
     console.log(fee?.data?.data?.payment?.previousPayment,"2")
-    setFee(fee.data.data);
+    setFee(fee?.data?.data);
     if (querys?.prev) {
       setTotalis(fee?.data?.data?.payment?.previousPayment[querys?.index]?.amount);
     } else if (querys?.other) {

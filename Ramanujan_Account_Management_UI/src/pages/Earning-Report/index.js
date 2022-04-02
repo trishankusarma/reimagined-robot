@@ -260,7 +260,8 @@ export default function Earning() {
       });
 
       if(res.status===200){
-           setIncome( res.data.payment )
+
+           setIncome( res?.data?.payment?.sort((obj1, obj2)=> new Date(obj1.date) >= new Date(obj2.date )) )
 
            let incomesTotal = 0
 
