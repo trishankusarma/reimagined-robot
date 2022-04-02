@@ -560,7 +560,6 @@ class AdminService {
     }
 
     async allStudentsCollegeFee(department: string, FromDate: Date, ToDate: Date) {
-        console.log('payment', department, FromDate, ToDate);
 
         try {
             const rows = await this.FeePaymentModel.find({
